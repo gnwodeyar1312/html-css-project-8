@@ -1,0 +1,88 @@
+*{
+    font-family: 'Roboto',sans-serif;
+}
+
+body{
+    margin-top: 20px;
+    margin-left: 50px;
+    background-image: url(../images/backcover.svg);
+    background-position: bottom 30px left 480px;
+    background-repeat: no-repeat;
+    
+}
+
+nav{
+    height: 70px;
+}
+
+ 
+
+.nav-items{
+    position: absolute;
+    top: 10px;
+    bottom: 530px;
+    left: 450px;
+    color: #38598d;
+   
+}
+
+.nav-item{
+    float: left;
+    margin-left: 30px;
+    font-size: 15px;
+} 
+
+.nav-item:first-child{
+    margin-left: 20px;
+}
+
+
+.signin-btn{
+    position: absolute;
+    left: 1100px;
+    top: 20px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: #ffffff;
+    background:linear-gradient(to right,#9F2BC1, #E1A2B8);
+    border: none;
+}
+
+.intro-section{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+h1{
+    color: #38598d;
+    font-size: 70px;
+    margin-top: 180px;
+}
+
+h4{
+    color: #758283;
+    font-size: 15px;
+    line-height: 30px;
+    margin-right: 100px;
+}
+
+.learn-more-btn{
+    padding: 20px 30px;
+    border-radius: 30px;
+    color: #ffffff;
+    background:linear-gradient(to right,#9F2BC1, #E1A2B8);
+    border: none;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.vector-img{
+    position: absolute;
+    top: 670px;
+
+}
+
+.vector-dot{
+    position: absolute;
+    top: 670px;
+    left: 530px;
+}
