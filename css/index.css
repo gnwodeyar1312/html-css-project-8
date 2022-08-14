@@ -93,7 +93,7 @@ h4{
 
     body{
 
-        background-position: bottom 150px left 80px;
+        background-position: bottom 250px left 80px;
         background-repeat: no-repeat;
  
     }
@@ -113,8 +113,8 @@ h4{
 
     .signin-btn{
         position: absolute;
-        left: 120%;
-        top: 2%;
+        left: 80%;
+        top: 5%;
         padding: 10px 30px;
         border-radius: 20px;
         color: #ffffff;
@@ -134,4 +134,18 @@ h4{
     .vector-dot{
         display: none;
     }
+
+    [alt="intro-img"]{
+        width: 100%;
+    }
+
+    .learn-more-btn{
+        padding: 10px 20px;
+        border-radius: 20px;
+        color: #ffffff;
+        background:linear-gradient(to right,#9F2BC1, #E1A2B8);
+        border: none;
+        font-size: 15px;
+    }
+ 
 }
