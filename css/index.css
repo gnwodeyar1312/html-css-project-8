@@ -8,6 +8,7 @@ body{
     background-image: url(../images/backcover.svg);
     background-position: bottom 30px left 480px;
     background-repeat: no-repeat;
+    background-size: cover;
     
 }
 
@@ -85,4 +86,52 @@ h4{
     position: absolute;
     top: 670px;
     left: 530px;
+}
+
+
+@media screen and (max-width: 620px){
+
+    body{
+
+        background-position: bottom 150px left 80px;
+        background-repeat: no-repeat;
+ 
+    }
+    
+
+    nav{
+        width: 100%;
+    }
+
+    .nav-items{
+        display: none;
+    }
+
+    [alt="logo"]{
+        width: 30%;
+    }
+
+    .signin-btn{
+        position: absolute;
+        left: 120%;
+        top: 2%;
+        padding: 10px 30px;
+        border-radius: 20px;
+        color: #ffffff;
+        background:linear-gradient(to right,#9F2BC1, #E1A2B8);
+        border: none;
+    }
+    
+    .intro-section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .vector-img{
+        display: none;
+    }
+
+    .vector-dot{
+        display: none;
+    }
 }
